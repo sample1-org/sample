@@ -1,2 +1,8 @@
 namespace com.project.satinfotech;
-using { managed, cuid } from '@sap/cds/common';
+using {  cuid } from '@sap/cds/common';
+
+entity Sample : cuid {
+    @title: 'name'
+    name: String(10)
+    
+}
