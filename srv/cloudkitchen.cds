@@ -1,4 +1,4 @@
-using { com.sumanth.nnrg as db } from '../db/schema';
+using { com.project.satinfotech} from '../db/schema';
 using {API_PRODUCT_SRV as productapi} from './external/API_PRODUCT_SRV';
 
 service nnrg @(requires: 'authenticated-user') {
